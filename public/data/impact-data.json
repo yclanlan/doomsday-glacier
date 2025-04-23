@@ -1,0 +1,1525 @@
+{
+  "name": "Earth",
+  "children": [
+    {
+      "name": "Ocean",
+      "children": [
+        {
+          "name": "Arctic",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Temperature",
+                  "status": "inc",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Ocean pH",
+                  "status": "dec",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Sea Ice Extent",
+                  "status": "dec",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Sea Level",
+                  "status": "inc",
+                  "confidence": "low"
+                }
+              ]
+            },
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Upper Water Column",
+                  "status": "pos&neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Kelp Forest",
+                  "status": "pos",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Polar Benthos",
+                  "status": "pos&neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Sea Ice-associated",
+                  "status": "neg",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Fisheries",
+                  "status": "pos&neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Tourism",
+                  "status": "pos",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Habitat Services",
+                  "status": "pos&neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Transportation",
+                  "status": "pos",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Cultural Services",
+                  "status": "neg",
+                  "confidence": "medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "EBUS",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Temperature",
+                  "status": "inc&dec",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Oxygen",
+                  "status": "dec",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Ocean pH",
+                  "status": "dec",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Sea Level",
+                  "status": "inc",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Upper Water Column",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Kelp Forest",
+                  "status": "neg",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Fisheries",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Tourism",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Habitat Services",
+                  "status": "neg",
+                  "confidence": "low"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "North Atlantic",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Temperature",
+                  "status": "inc",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Oxygen",
+                  "status": "dec",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Ocean pH",
+                  "status": "dec",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Sea Level",
+                  "status": "inc",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Upper Water Column",
+                  "status": "neg",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Coral",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Coastal Wetlands",
+                  "status": "pos&neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Kelp Forest",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Rocky Shores",
+                  "status": "neg",
+                  "confidence": "high"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Fisheries",
+                  "status": "neg",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Habitat Services",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Cultural Services",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Coastal Carbon Sequestration",
+                  "status": "neg",
+                  "confidence": "medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "North Pacific",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Temperature",
+                  "status": "inc",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Oxygen",
+                  "status": "dec",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Ocean pH",
+                  "status": "dec",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Sea Level",
+                  "status": "inc",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Upper Water Column",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Coastal Wetlands",
+                  "status": "pos&neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Kelp Forest",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Rocky Shores",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Deep Sea",
+                  "status": "pos&neg",
+                  "confidence": "low"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Fisheries",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Tourism",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Habitat Services",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Cultural Services",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Coastal Carbon Sequestration",
+                  "status": "neg",
+                  "confidence": "medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "South Atlantic",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Temperature",
+                  "status": "inc",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Oxygen",
+                  "status": "dec",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Ocean pH",
+                  "status": "dec",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Sea Level",
+                  "status": "inc",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Upper Water Column",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Coastal Wetlands",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Kelp Forest",
+                  "status": "neg",
+                  "confidence": "low"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Fisheries",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Habitat Services",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Coastal Carbon Sequestration",
+                  "status": "neg",
+                  "confidence": "low"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "South Pacific",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Temperature",
+                  "status": "inc",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Oxygen",
+                  "status": "inc&dec",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Ocean pH",
+                  "status": "dec",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Sea Level",
+                  "status": "inc",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Upper Water Column",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Coral",
+                  "status": "neg",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Coastal Wetlands",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Kelp Forest",
+                  "status": "neg",
+                  "confidence": "low"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Fisheries",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Tourism",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Habitat Services",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Cultural Services",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Coastal Carbon Sequestration",
+                  "status": "neg",
+                  "confidence": "low"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Southern Ocean",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Temperature",
+                  "status": "inc",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Oxygen",
+                  "status": "dec",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Ocean pH",
+                  "status": "dec",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Sea Ice Extent",
+                  "status": "inc&dec",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Sea Level",
+                  "status": "inc",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Upper Water Column",
+                  "status": "pos&neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Polar Benthos",
+                  "status": "pos",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Sea Ice-associated",
+                  "status": "pos&neg",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Fisheries",
+                  "status": "pos&neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Tourism",
+                  "status": "pos",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Habitat Services",
+                  "status": "pos&neg",
+                  "confidence": "low"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Temperate Indian Ocean",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Temperature",
+                  "status": "inc",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Oxygen",
+                  "status": "inc&dec",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Ocean pH",
+                  "status": "dec",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Sea Level",
+                  "status": "inc",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Upper Water Column",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Coastal Wetlands",
+                  "status": "pos&neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Kelp Forest",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Rocky Shores",
+                  "status": "neg",
+                  "confidence": "low"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Fisheries",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Tourism",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Coastal Carbon Sequestration",
+                  "status": "neg",
+                  "confidence": "low"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tropical Atlantic",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Temperature",
+                  "status": "inc",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Oxygen",
+                  "status": "dec",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Ocean pH",
+                  "status": "dec",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Sea Level",
+                  "status": "inc",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Upper Water Column",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Coral",
+                  "status": "neg",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Coastal Wetlands",
+                  "status": "neg",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Fisheries",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Tourism",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Habitat Services",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Coastal Carbon Sequestration",
+                  "status": "neg",
+                  "confidence": "low"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tropical Indian Ocean",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Temperature",
+                  "status": "inc",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Oxygen",
+                  "status": "dec",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Ocean pH",
+                  "status": "dec",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Sea Level",
+                  "status": "inc",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Upper Water Column",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Coral",
+                  "status": "neg",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Coastal Wetlands",
+                  "status": "neg",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Fisheries",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Habitat Services",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Coastal Carbon Sequestration",
+                  "status": "neg",
+                  "confidence": "medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tropical Pacific",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Temperature",
+                  "status": "inc&dec",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Oxygen",
+                  "status": "dec",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Ocean pH",
+                  "status": "dec",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Sea Level",
+                  "status": "inc",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Upper Water Column",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Coral",
+                  "status": "neg",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Coastal Wetlands",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Kelp Forest",
+                  "status": "neg",
+                  "confidence": "low"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Fisheries",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Tourism",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Habitat Services",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Coastal Carbon Sequestration",
+                  "status": "neg",
+                  "confidence": "low"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "High Mountain\n and Polar Land\n Regions",
+      "children": [
+        {
+          "name": "Himalaya,\n Tibetan Plateau and\n Other High Mountain Asia",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Water Availability",
+                  "status": "inc&dec",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Flood",
+                  "status": "inc",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Landslide",
+                  "status": "inc",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Avalanche",
+                  "status": "inc",
+                  "confidence": "low"
+                }
+              ]
+            },
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Tundra",
+                  "status": "pos&neg",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Forest",
+                  "status": "pos&neg",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Tourism",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Agriculture",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Infrastructure",
+                  "status": "neg",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Migration",
+                  "status": "pos",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Cultural Services",
+                  "status": "neg",
+                  "confidence": "medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Low Latitudes",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Water Availability",
+                  "status": "inc&dec",
+                  "confidence": "high"
+                }
+              ]
+            },
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Tundra",
+                  "status": "pos&neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Rivers/Streams",
+                  "status": "pos&neg",
+                  "confidence": "low"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Tourism",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Agriculture",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Migration",
+                  "status": "pos",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Cultural Services",
+                  "status": "neg",
+                  "confidence": "medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Southern Andes",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Water Availability",
+                  "status": "inc&dec",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Rivers/Streams",
+                  "status": "neg",
+                  "confidence": "low"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Agriculture",
+                  "status": "pos",
+                  "confidence": "low"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "New Zealand",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Landslide",
+                  "status": "inc",
+                  "confidence": "low"
+                }
+              ]
+            },
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Rivers/Streams",
+                  "status": "neg",
+                  "confidence": "low"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Tourism",
+                  "status": "pos&neg",
+                  "confidence": "low"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Western Canada\n and USA",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Water Availability",
+                  "status": "inc&dec",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Flood",
+                  "status": "inc&dec",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Landslide",
+                  "status": "inc",
+                  "confidence": "low"
+                }
+              ]
+            },
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Tundra",
+                  "status": "pos&neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Forest",
+                  "status": "pos&neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Rivers/Streams",
+                  "status": "neg",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Tourism",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Cultural Services",
+                  "status": "pos&neg",
+                  "confidence": "low"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "European Alps\n and Pyrenees",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Water Availability",
+                  "status": "inc&dec",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Flood",
+                  "status": "inc&dec",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Landslide",
+                  "status": "inc",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Avalanche",
+                  "status": "inc&dec",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Tundra",
+                  "status": "pos&neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Rivers/Streams",
+                  "status": "pos&neg",
+                  "confidence": "high"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Tourism",
+                  "status": "neg",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Infrastructure",
+                  "status": "neg",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Cultural Services",
+                  "status": "pos&neg",
+                  "confidence": "high"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Caucasus",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Water Availability",
+                  "status": "inc&dec",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Flood",
+                  "status": "inc",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Avalanche",
+                  "status": "inc",
+                  "confidence": "low"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Tourism",
+                  "status": "neg",
+                  "confidence": "low"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Scandinavia",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Water Availability",
+                  "status": "inc&dec",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Landslide",
+                  "status": "inc",
+                  "confidence": "low"
+                }
+              ]
+            },
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Tundra",
+                  "status": "inc&dec",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Tourism",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Agriculture",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Cultural Services",
+                  "status": "pos",
+                  "confidence": "low"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Iceland",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Water Availability",
+                  "status": "inc&dec",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Landslide",
+                  "status": "inc",
+                  "confidence": "low"
+                }
+              ]
+            },
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Rivers/Streams",
+                  "status": "neg",
+                  "confidence": "low"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Tourism",
+                  "status": "pos&neg",
+                  "confidence": "low"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Russian Arctic",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Water Availability",
+                  "status": "inc",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Ground Subsidence",
+                  "status": "inc",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Tundra",
+                  "status": "pos&neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Forest",
+                  "status": "pos&neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Lakes/Ponds",
+                  "status": "pos&neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Rivers/Streams",
+                  "status": "neg",
+                  "confidence": "low"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Infrastructure",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Cultural Services",
+                  "status": "neg",
+                  "confidence": "low"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Alaska",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Water Availability",
+                  "status": "inc&dec",
+                  "confidence": "high"
+                },
+                {
+                  "name": "Landslide",
+                  "status": "inc",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Ground Subsidence",
+                  "status": "inc",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Tundra",
+                  "status": "pos&neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Forest",
+                  "status": "pos&neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Lakes/Ponds",
+                  "status": "pos&neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Rivers/Streams",
+                  "status": "neg",
+                  "confidence": "low"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Tourism",
+                  "status": "neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Infrastructure",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Migration",
+                  "status": "pos",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Cultural Services",
+                  "status": "pos&neg",
+                  "confidence": "low"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Arctic Canada and\n Greenland Antarctica",
+          "children": [
+            {
+              "name": "Physical Changes",
+              "children": [
+                {
+                  "name": "Ground Subsidence",
+                  "status": "inc",
+                  "confidence": "medium"
+                }
+              ]
+            },
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Tundra",
+                  "status": "pos&neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Forest",
+                  "status": "pos&neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Lakes/Ponds",
+                  "status": "pos&neg",
+                  "confidence": "low"
+                },
+                {
+                  "name": "Rivers/Streams",
+                  "status": "neg",
+                  "confidence": "low"
+                }
+              ]
+            },
+            {
+              "name": "Human Systems",
+              "children": [
+                {
+                  "name": "Infrastructure",
+                  "status": "neg",
+                  "confidence": "medium"
+                },
+                {
+                  "name": "Cultural Services",
+                  "status": "neg",
+                  "confidence": "medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Antarctica",
+          "children": [
+            {
+              "name": "Ecosystems",
+              "children": [
+                {
+                  "name": "Tundra",
+                  "status": "neg",
+                  "confidence": "low"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

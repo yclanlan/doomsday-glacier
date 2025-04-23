@@ -1,0 +1,17 @@
+.imageContainer {
+  width: 50vw;
+  position: relative;
+  padding: 1rem 3rem;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*  Centers content vertically */
+  justify-content: center; /*  Centers content horizontally */
+}
+
+@media (max-width: 768px) {
+  .imageContainer {
+    width: calc(90vw - 2rem) !important;
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,19 @@
+.videoContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100vw; /* Change to min-width */
+  min-height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}

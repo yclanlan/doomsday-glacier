@@ -1,0 +1,150 @@
+{
+  "sections": [
+    {
+      "id": "00",
+      "label": "opening animation",
+      "background": {
+        "type": "video",
+        "src": "./assets/opening-output-1280.mp4",
+        "play": false
+      },
+      "showInTimeLine": false
+    },
+    {
+      "id": "01",
+      "label": "glacier structure",
+      "background": {
+        "type": "video",
+        "src": "./assets/structure-output-1440.mp4",
+        "play": false
+      },
+      "showInTimeLine": false
+    },
+    {
+      "id": "02",
+      "label": "2004",
+      "background": {
+        "type": "fill",
+        "src": "#68757D",
+        "play": false
+      },
+      "showInTimeLine": true,
+      "subtitle": "The First Crack"
+    },
+    {
+      "id": "03",
+      "label": "2014",
+      "background": {
+        "type": "video",
+        "src": "./assets/time-lapse-output.mp4",
+        "play": true
+      },
+      "showInTimeLine": true,
+      "subtitle": "Satellite evidence of glacier extension breaking apart"
+    },
+    {
+      "id": "04",
+      "label": "2019",
+      "background": {
+        "type": "fill",
+        "src": "#68757D",
+        "play": false
+      },
+      "showInTimeLine": true,
+      "subtitle": "Collapse of the ice tongue"
+    },
+    {
+      "id": "05",
+      "label": "melting factors",
+      "background": {
+        "type": "video",
+        "src": "./assets/factors-output-1440.mp4",
+        "play": false
+      },
+      "showInTimeLine": false
+    },
+    {
+      "id": "06",
+      "label": "Late 2019",
+      "background": {
+        "type": "fill",
+        "src": "#68757D",
+        "play": false
+      },
+      "showInTimeLine": true,
+      "subtitle": "Borehole discoveries beneath the glacier"
+    },
+    {
+      "id": "07",
+      "label": "Project MELT",
+      "background": {
+        "type": "image",
+        "src": "./assets/bg-borehole-drilling.png",
+        "play": false
+      },
+      "showInTimeLine": false
+    },
+    {
+      "id": "08",
+      "label": "Icefin",
+      "background": {
+        "type": "video",
+        "src": "./assets/icefin-bg-output.mp4",
+        "play": true
+      },
+      "showInTimeLine": false
+    },
+    {
+      "id": "09",
+      "label": "Melting rate calculation",
+      "background": {
+        "type": "fill",
+        "src": "#68757D",
+        "play": false
+      },
+      "showInTimeLine": false
+    },
+    {
+      "id": "10",
+      "label": "2022",
+      "background": {
+        "type": "image",
+        "src": "./assets/bg-cracks.png",
+        "play": false
+      },
+      "showInTimeLine": true,
+      "subtitle": "Unprecedented glacier melting rates in western Thwaites"
+    },
+    {
+      "id": "11",
+      "label": "2022-1",
+      "background": {
+        "type": "video",
+        "src": "./assets/icefin-underwater-output.mp4",
+        "play": true
+      },
+      "showInTimeLine": false
+    },
+    {
+      "id": "12",
+      "label": "2030",
+      "background": {
+        "type": "fill",
+        "src": "#68757D",
+        "play": false
+      },
+      "showInTimeLine": true,
+      "subtitle": "Last Anchor"
+    },
+    {
+      "id": "13",
+      "label": "Data Viz",
+      "background": {
+        "type": "fill",
+        "src": "#68757D",
+        "play": false
+      },
+      "showInTimeLine": false
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+.content {
+  /* margin-left: 150px; */
+  width: 100vw;
+}
+
+.section {
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  /* padding: 100px 0; */
+  /* border: 1px solid #ddd; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; Centers content vertically */
+  /* justify-content: center; Centers content horizontally */
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.textOverlay {
+  position: absolute;
+  z-index: 5;
+}
+
+.title {
+  width: 35vw;
+  position: relative;
+  /* color: #001355; */
+  color: white;
+
+  margin-left: 4rem;
+  padding: 1rem 3rem;
+  top: 40vh;
+  /* transform: translateY(-60%); */
+  /* left: 50%;
+  transform: translateX(-50%); */
+  z-index: 50;
+}
+
+.headline {
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  /* padding: 20rem 0; */
+}
+
+.author {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.textContentContainer {
+  width: 35vw;
+  position: relative;
+  padding: 1rem 3rem;
+  /* top: 50vh; */
+  z-index: 50;
+}
+
+.srcText {
+  font-family: "Roboto";
+  font-size: 1re;
+  line-height: 1.4em;
+}
+
+.srcHr {
+  width: 10vw;
+  align-self: flex-start;
+  margin: 0;
+}
+
+hr {
+  border-top: 0px;
+  margin: 2.4rem 0;
+}
+
+.textShadow {
+  text-shadow: 0 0 0.8em black;
+}
+
+/* Mobile breakpoint */
+@media screen and (max-width: 768px) {
+  .title {
+    width: calc(90vw - 2rem);
+    margin-left: 1rem;
+    padding: 1rem;
+    /* top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%); */
+  }
+
+  .headline {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  .author {
+    font-size: 0.875rem;
+  }
+
+  .textContentContainer {
+    width: calc(90vw - 2rem);
+    padding: 1rem;
+    /* top: 50vh; */
+  }
+
+  .srcText {
+    font-size: 0.875rem;
+    line-height: 1.4em;
+  }
+
+  .srcHr {
+    width: 20vw;
+  }
+}

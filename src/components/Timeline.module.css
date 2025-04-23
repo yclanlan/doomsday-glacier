@@ -1,0 +1,96 @@
+.timeline {
+  position: fixed;
+  top: 50%;
+  width: 20vw;
+  min-width: 264px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* border: 1px white solid; */
+  padding: 1rem 0;
+  margin: 1rem;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  opacity: 0; /* Start hidden */
+  transform: translate(-100%, -50%);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.timeline.visible {
+  opacity: 1; /* Fully visible */
+  transform: translate(0, -50%); /* In place */
+}
+
+.timeline.hidden {
+  opacity: 0; /* Fully hidden */
+  transform: translateX(-100%, -50%); /* Slide out to the left */
+}
+
+.timelineItem {
+  margin: 0 40px;
+  padding: 0.5rem 0;
+  /* margin-top: 40px; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* border: 1px solid white; */
+  font-family: "Roboto";
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.timelineItem::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5px; /* Aligns with the center of the dot */
+  width: 1px;
+  height: 100%;
+  background-color: #366cc3;
+  z-index: -1; /* Places the line behind the dot */
+}
+
+.timelineItem:last-child::before {
+  height: 50%; /* Shortens the line for the last dot */
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #366cc3;
+  /* border: 1px solid white; */
+  transition: background-color 0.3s;
+  margin-right: 20px;
+}
+
+.dot.active {
+  background-color: white;
+}
+
+.label {
+  font-weight: 600;
+  color: white;
+}
+
+.subtitle {
+  width: 10vw;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: grey;
+  transition: color 0.3s;
+  font-weight: 400;
+}
+
+.subtitle.active {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .timeline {
+    display: none;
+  }
+}

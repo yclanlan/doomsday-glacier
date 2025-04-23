@@ -1,0 +1,21 @@
+.textBoxContainer {
+  width: 30vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  position: relative;
+  padding: 1rem 2rem;
+  z-index: 50;
+  box-sizing: border-box;
+  backdrop-filter: blur(8px) brightness(100%);
+  -webkit-backdrop-filter: blur(8px) brightness(100%); /* For Safari */
+}
+
+@media (max-width: 768px) {
+  .textBoxContainer {
+    width: calc(90vw - 1rem) !important;
+    padding: 0.8rem 1.2rem;
+    /* margin-left: 1rem !important;
+    margin-right: 1rem !important; */
+    margin: auto !important;
+  }
+}

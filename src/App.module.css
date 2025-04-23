@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-weight: 400;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+body {
+  font-size: 18px; /* Base size */
+  line-height: 1.8rem;
+  font-family: "Merriweather", serif;
+  text-wrap: pretty;
+  color: white;
+  background-color: #68757d;
+  /* overflow: hidden; */
+}
+
+h2 {
+  line-height: 2.4rem;
+}
+
+p {
+  font-size: 1rem;
+  text-wrap: pretty;
+  /* text-wrap: balance; */
+  color: white;
+}
