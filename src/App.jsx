@@ -40,6 +40,7 @@ const sections = [
     background: {
       type: "video",
       src: "./assets/time-lapse-output.mp4",
+      mobileSrc: "./assets/time-lapse-output-phone-output.mp4",
       play: true,
     },
     showInTimeLine: true,
@@ -90,6 +91,7 @@ const sections = [
     background: {
       type: "video",
       src: "./assets/icefin-bg-output.mp4",
+      mobileSrc: "./assets/icefin-bg-phone-output.mp4",
       play: true,
     },
     showInTimeLine: false,
@@ -121,6 +123,7 @@ const sections = [
     background: {
       type: "video",
       src: "./assets/icefin-underwater-output.mp4",
+      mobileSrc: "./assets/icefin-underwater-phone-output.mp4",
       play: true,
     },
     showInTimeLine: false,
