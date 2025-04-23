@@ -29,16 +29,14 @@ An interactive visual journalism story about the Thwaites Glacier in Antarctica.
 
 ### credit
 
-**3D Modeling & Animation**
+- **3D Modeling & Animation**
 Created by me!
 
-**Development**
+- **Development**
 Built by [Lily](https://github.com/LilYuuu)
 
-**Storyboarding**
+- **Storyboarding**
 Collaboratively planned together!
-
-StoryBoard together!
 ![story](/public/assets/storyboard.png)
 
 
@@ -46,4 +44,7 @@ StoryBoard together!
 ### Update
 
 The component has been updated to support mobile video sources for a smoother cross-device experience!
-(with mobile version video & updated component ) 2025/04 LAN!
+
+
+(with mobile version video & updated component ) 
+025/04 LAN!
