@@ -10,7 +10,7 @@ function BackgroundVideo({ section, name, videoRef, isMobile }) {
   );
 
   useEffect(() => {
-    // 当 isMobile 状态改变时更新源
+    // Update source when isMobile state changes
     const newSource = isMobile && section.background.mobileSrc 
       ? section.background.mobileSrc 
       : section.background.src;
@@ -21,48 +21,48 @@ function BackgroundVideo({ section, name, videoRef, isMobile }) {
     
     const video = videoRef.current;
     
-    // 确保在切换源时重新加载视频
+    // Reload video when switching sources
     const loadVideo = () => {
-      // 先暂停视频
+      // Pause the video first
       video.pause();
       
-      // 更新 source 元素的 src 属性
+      // Update the source element's src attribute
       const sourceElement = video.querySelector('source');
       if (sourceElement) {
         sourceElement.setAttribute('src', newSource);
       }
       
-      // 重新加载视频
+      // Reload the video
       video.load();
       
-      // 如果需要自动播放，重新播放
+      // Replay the video if autoplay is needed
       if (ifPlay) {
-        // 使用 Promise 确保加载后再播放
+        // Use a promise to ensure playback after loading
         const playPromise = video.play();
         if (playPromise !== undefined) {
           playPromise
             .then(() => {
-              // 自动播放成功
+              // Playback started successfully
               console.log("Video playback started successfully");
             })
             .catch(error => {
-              // 自动播放失败（通常是浏览器策略阻止）
+              // Playback failed (usually due to browser autoplay policy)
               console.error("Video playback failed:", error);
             });
         }
       }
       
-      // 确保视频首帧是可见的（解决一些移动设备上的问题）
+      // Ensure the first frame is visible (fixes issues on some mobile devices)
       video.currentTime = 0.01;
     };
     
-    // 重新加载视频
+    // Reload the video
     loadVideo();
     
-    // 添加元数据加载事件监听器
+    // Add event listener for when metadata is loaded
     const handleMetadata = () => {
       console.log("Video metadata loaded:", newSource);
-      // 确保 ScrollTrigger 有正确的视频持续时间信息
+      // Ensure ScrollTrigger has correct video duration info
       if (window.ScrollTrigger) {
         window.ScrollTrigger.refresh();
       }
