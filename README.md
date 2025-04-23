@@ -6,6 +6,8 @@ An interactive visual journalism story about the Thwaites Glacier in Antarctica.
 
 [Link to Project](https://the-doomsday-glacier.yichunlan.com)
 
+
+
 ### To Run Project Locally
 
 - `npm install`: to install the packages
@@ -23,3 +25,25 @@ An interactive visual journalism story about the Thwaites Glacier in Antarctica.
 - [Cell Fracture https://extensions.blender.org/add-ons/cell-fracture/]( https://www.youtube.com/watch?v=E2WLmw2Crcs&ab_channel=Markom3D)
 
 - [Addon for objects change shape by adding keyframes]( https://extensions.blender.org/add-ons/animall/)
+
+
+### credit
+
+**3D Modeling & Animation**
+Created by me!
+
+**Development**
+Built by [Lily](https://github.com/LilYuuu)
+
+**Storyboarding**
+Collaboratively planned together!
+
+StoryBoard together!
+![story](/public/assets/storyboard.png)
+
+
+
+### Update
+
+The component has been updated to support mobile video sources for a smoother cross-device experience!
+(with mobile version video & updated component ) 2025/04 LAN!
