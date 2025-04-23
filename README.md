@@ -30,7 +30,9 @@ An interactive visual journalism story about the Thwaites Glacier in Antarctica.
 ### credit
 
 - **3D Modeling & Animation**
-Created by me!
+![story](/public/assets/animaiton-progress-1.gif)
+![story](/public/assets/animaiton-progress-2.gif)
+Created by me! If you are interested in how, please feel free to reach out and definitely check the resources!
 
 - **Development**
 Built by [Lily](https://github.com/LilYuuu)
