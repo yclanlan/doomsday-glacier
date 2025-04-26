@@ -1,4 +1,6 @@
 import { useEffect, useState, useRef } from "react";
+import {motion,AnimatePresence} from "framer-motion"
+
 import styles from "./App.module.css";
 import Background from "./components/Background";
 import Timeline from "./components/TimeLine";
@@ -11,7 +13,7 @@ const sections = [
     background: {
       type: "video",
       src: "./assets/opening-output.mp4",
-      mobileSrc: "./assets/opening-phone-output.mp4",
+      mobileSrc: "./assets/opening-phone.mp4",
       play: false,
     },
     showInTimeLine: false,
@@ -155,6 +157,8 @@ function App() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [showTimeline, setShowTimeline] = useState(false); // Controls animation
   const [isMobile, setIsMobile] = useState(false);
+  const [isLoading, setIsLoading] = useState(true); 
+
 
   const openingAnimationRef = useRef(null);
   const structureRef = useRef(null);
@@ -174,6 +178,18 @@ function App() {
     }, []);
 
   useEffect(() => {
+      window.addEventListener('load', () => {
+        setTimeout(() => {
+          setIsLoading(false);
+        }, 1000);
+      });
+      const timeout = setTimeout(() => {
+        setIsLoading(false);
+      }, 8000); 
+      return () => clearTimeout(timeout);
+    }, []);
+  
+  useEffect(() => {
     if (activeIndex > 1 && activeIndex < sections.length - 1) {
       setShowTimeline(true);
     } else {
@@ -183,6 +199,33 @@ function App() {
 
   return (
     <div className={styles.app}>
+  
+       <AnimatePresence mode="wait">
+      {isLoading && (
+        <>
+        <motion.div className={styles.cleanBgLoader}
+                 initial={{ opacity: 0 }}
+                 animate={{ opacity: 1 }}
+                 exit={{ opacity: 0, transition: { duration: 0.8 } }}
+               >
+          <div className={styles.spinner}></div>
+          <div style={{ fontSize:'0.96rem' , textAlign: 'center' , zIndex:'999' }}>Preparing your exploration experience...
+            
+            </div>
+            
+        </motion.div>
+
+        <motion.div className={styles.simpleLoader}
+            initial={{ opacity: 1 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0, transition: { duration: 1.5 } }}
+            >
+        </motion.div>
+        </>
+        
+      )}
+       </AnimatePresence>
+
       <Background
         sections={sections}
         activeIndex={activeIndex}
