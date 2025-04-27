@@ -13,7 +13,7 @@ const sections = [
     background: {
       type: "video",
       src: "./assets/opening-output.mp4",
-      mobileSrc: "./assets/opening-phone.mp4",
+      mobileSrc: "./assets/opening-phone-output.mp4",
       play: false,
     },
     showInTimeLine: false,
@@ -181,7 +181,7 @@ function App() {
       window.addEventListener('load', () => {
         setTimeout(() => {
           setIsLoading(false);
-        }, 1000);
+        }, 1500);
       });
       const timeout = setTimeout(() => {
         setIsLoading(false);

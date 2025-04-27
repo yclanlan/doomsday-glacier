@@ -56,11 +56,32 @@ p {
   /* background-color:rgba(31, 69, 184, 0.5); */
   background:url("/assets/ice1.png") ;
   background-size: auto 100%;
-  animation-name: MOVE-BG;
-  animation-duration: 100s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
 }
+
+@media only screen and (max-width: 600px) {
+  .simpleLoader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    color: white;
+    /* background-color:rgba(31, 69, 184, 0.5); */
+    background:url("/assets/ice1.png") ;
+    background-size: auto 100%;
+    animation-name: MOVE-BG;
+    animation-duration: 100s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+}
+
+
 @keyframes MOVE-BG {
  from {
    transform: translateX(-30%);
