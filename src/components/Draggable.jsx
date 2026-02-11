@@ -60,13 +60,13 @@ function Draggable() {
     <div className={styles.container} style={{}}>
       <div className={styles.imgWrapper}>
         <img
-          src="https://cdn.glitch.global/1ae17f3f-d894-43e4-bfeb-bc4a11ad0df2/Frame%2041.png?v=1722996190585"
+          src="./assets/slider-2019.png"
           alt="After Image"
           className={styles.after}
         />
         <img
           ref={beforeImageRef}
-          src="https://cdn.glitch.global/1ae17f3f-d894-43e4-bfeb-bc4a11ad0df2/Frame%2042.png?v=1722996185642"
+          src="./assets/slider-2001.png"
           alt="Before Image"
           className={styles.before}
         />
