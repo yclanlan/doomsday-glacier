@@ -18,7 +18,7 @@ function Draggable() {
     // const slider = sliderRef.current;
 
     const sliderValue = e.target.value;
-    width = beforeImage.offsetWidth;
+    const width = beforeImage.offsetWidth;
     const height = beforeImage.offsetHeight;
     const newClip = (sliderValue / 100) * width;
 
